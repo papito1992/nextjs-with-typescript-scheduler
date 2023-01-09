@@ -1,0 +1,42 @@
+{
+  "name": "nextjs-with-typescript",
+  "version": "5.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "post-update": "echo \"codesandbox preview only, need an update\" && yarn upgrade --latest"
+  },
+  "dependencies": {
+    "@date-io/dayjs": "^2.16.0",
+    "@emotion/cache": "latest",
+    "@emotion/react": "latest",
+    "@emotion/server": "latest",
+    "@emotion/styled": "latest",
+    "@hookform/resolvers": "^2.9.10",
+    "@mui/icons-material": "latest",
+    "@mui/lab": "^5.0.0-alpha.114",
+    "@mui/material": "latest",
+    "@mui/x-date-pickers": "^5.0.12",
+    "@next/font": "latest",
+    "axios": "^1.2.1",
+    "date-fns": "^2.29.3",
+    "dayjs": "^1.11.7",
+    "next": "latest",
+    "prop-types": "^15.8.1",
+    "react": "latest",
+    "react-dom": "latest",
+    "react-hook-form": "^7.41.5",
+    "react-i18next": "^12.1.1",
+    "zod": "^3.20.2"
+  },
+  "devDependencies": {
+    "@types/node": "latest",
+    "@types/react": "latest",
+    "eslint": "latest",
+    "eslint-config-next": "latest",
+    "typescript": "latest"
+  }
+}
